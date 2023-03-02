@@ -24,6 +24,7 @@ def findMax(root):
     return max
 
 '''
+
 How does this work?
 
 -> Find the max element in the left sub tree
@@ -64,9 +65,5 @@ c)             our algorithm is paused as left sub tree exists(It'll stay paused
 The answers from (1.2) and (1.3) are fed to (1.1) and the algorithm is unpaused and  now the recursion is at the tree root (root = 5)
 The execution of the left sub tree is complete
 Now the execution of the right sub tree takes place and similer processes are taken place to obtain the answer as 10 
-               
-               
-
-
 
 '''
