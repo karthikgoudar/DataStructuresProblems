@@ -71,3 +71,27 @@ The execution of the left sub tree is complete
 Now the execution of the right sub tree takes place and similer processes are taken place to obtain the answer as 10 
 
 '''
+
+# Same problem using Level order Traversal
+# Time complextiy - O(n)
+# Space complexity - O(n)
+ 
+
+def findMax(root):
+    if not root:
+        return
+    
+    queue = []
+    queue.append(root)
+    node = None 
+    max = 0
+
+    while queue:
+        node = queue.pop(0)
+        if node.data > max:
+            max = node.data
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+    return max 
