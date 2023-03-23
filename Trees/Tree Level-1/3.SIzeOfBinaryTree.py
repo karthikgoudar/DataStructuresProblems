@@ -36,5 +36,5 @@ def findSize1(root):
         if node.right:
             q.append(node.right)
 
-    return count
+    return count 
 
