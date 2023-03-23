@@ -31,7 +31,7 @@ def findSize1(root):
     while q:
         node = q.pop(0)
         count += 1
-        if node.left:
+        if node.left: 
             q.append(node.left)
         if node.right:
             q.append(node.right)
