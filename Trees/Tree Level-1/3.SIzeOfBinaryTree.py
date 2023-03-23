@@ -4,7 +4,7 @@ Find the size of the binary tree
 Time Complexity  : O(n)
 Space Complexity : O(n)
 
-Author : Kartik Goudar
+Author : Kartik Goudar 
 Date   : 3 Mar, 2023
 '''
 
